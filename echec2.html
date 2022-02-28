@@ -1,0 +1,246 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta class="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu d'échec</title>
+    <link rel="stylesheet" href="echec2.css">
+</head>
+<body>
+      
+    <main>
+        
+        <div class="box-2">
+            <div id="score-j1" class="score">
+                <p class="tour-de-jeu">Pions j1</p>
+            </div>
+            <div class="box-center-score">
+                <div class="box-score">
+                    <div class="case-score" id="pion-capture-joueur1-1"></div>
+                    <div class="case-score" id="pion-capture-joueur1-2"></div>
+                    <div class="case-score" id="pion-capture-joueur1-3"></div>
+                    <div class="case-score" id="pion-capture-joueur1-4"></div>
+                    <div class="case-score" id="pion-capture-joueur1-5"></div>
+                    <div class="case-score" id="pion-capture-joueur1-6"></div>
+                    <div class="case-score" id="pion-capture-joueur1-7"></div>
+                    <div class="case-score" id="pion-capture-joueur1-8"></div>
+                    <div class="case-score" id="pion-capture-joueur1-9"></div>
+                    <div class="case-score" id="pion-capture-joueur1-10"></div>
+                    <div class="case-score" id="pion-capture-joueur1-11"></div>
+                    <div class="case-score" id="pion-capture-joueur1-12"></div>
+                    <div class="case-score" id="pion-capture-joueur1-13"></div>
+                    <div class="case-score" id="pion-capture-joueur1-14"></div>
+                    <div class="case-score" id="pion-capture-joueur1-15"></div>
+                    <div class="case-score" id="pion-capture-joueur1-16"></div>
+                </div>
+            </div>
+        </div>
+        <div class="box-3" id="plateau">
+            <div class="case bordure"></div>
+            <div id="case-0a" class="case bordure">A</div>
+            <div id="case-0b" class="case bordure">B</div>
+            <div id="case-0c" class="case bordure">C</div>
+            <div id="case-0d" class="case bordure">D</div>
+            <div id="case-0e" class="case bordure">E</div>
+            <div id="case-0f" class="case bordure">F</div>
+            <div id="case-0g" class="case bordure">G</div>
+            <div id="case-0h" class="case bordure">H</div>
+            <div class="case bordure"></div>
+
+            <div class="case bordure">1</div>
+            <div id="case-1a" class="case case-blanche">
+                <img src="./images/tour-j2.png" class="tour-j2" alt="tour">
+            </div>
+            <div id="case-1b" class="case case-noire">
+                <img src="./images/cheval-j2.png" class="cheval-j2" alt="cheval">
+            </div>
+            <div id="case-1c" class="case case-blanche">
+                <img src="./images/fou-j2.png" class="fou-j2" alt="fou">
+            </div>
+            <div id="case-1d" class="case case-noire">
+                <img src="./images/roi-j2.png" class="roi-j2" alt="roi">
+            </div>
+            <div id="case-1e" class="case case-blanche">
+                <img src="./images/renne-j2.png" class="renne-j2" alt="renne">
+            </div>
+            <div id="case-1f" class="case case-noire">
+                <img src="./images/fou-j2.png" class="fou-j2" alt="fou">
+            </div>
+            <div id="case-1g" class="case case-blanche">
+                <img src="./images/cheval-j2.png" class="cheval-j2" alt="cheval">
+            </div>
+            <div id="case-1h" class="case case-noire">
+                <img src="./images/tour-j2.png" class="tour-j2" alt="tour">
+            </div>
+            <div class="case bordure">1</div>
+
+            <div class="case bordure">2</div>
+            <div id="case-2a" class="case case-noire">
+                <img src="./images/pion-j2.png" class="pion-j2 traverse" alt="pion">
+            </div>
+            <div id="case-2b" class="case case-blanche">
+                <img src="./images/pion-j2.png" class="pion-j2 traverse" alt="pion">
+            </div>
+            <div id="case-2c" class="case case-noire">
+                <img src="./images/pion-j2.png" class="pion-j2 traverse" alt="pion">
+            </div>
+            <div id="case-2d" class="case case-blanche">
+                <img src="./images/pion-j2.png" class="pion-j2 traverse" alt="pion">
+            </div>
+            <div id="case-2e" class="case case-noire">
+                <img src="./images/pion-j2.png" class="pion-j2 traverse" alt="pion">
+            </div>
+            <div id="case-2f" class="case case-blanche">
+                <img src="./images/pion-j2.png" class="pion-j2 traverse" alt="pion">
+            </div>
+            <div id="case-2g" class="case case-noire">
+                <img src="./images/pion-j2.png" class="pion-j2 traverse" alt="pion">
+            </div>
+            <div id="case-2h" class="case case-blanche">
+                <img src="./images/pion-j2.png" class="pion-j2 traverse" alt="pion">
+            </div>
+            <div class="case bordure">2</div>
+
+            <div class="case bordure">3</div>
+            <div id="case-3a" class="case case-blanche" ></div>
+            <div id="case-3b" class="case case-noire"></div>
+            <div id="case-3c" class="case case-blanche"></div>
+            <div id="case-3d" class="case case-noire"></div>
+            <div id="case-3e" class="case case-blanche"></div>
+            <div id="case-3f" class="case case-noire"></div>
+            <div id="case-3g" class="case case-blanche"></div>
+            <div id="case-3h" class="case case-noire"></div>
+            <div class="case bordure">3</div>
+        </tr>
+        <tr id="ligne-4" class="ligne">
+            <div class="case bordure">4</div>
+            <div id="case-4a" class="case case-noire"></div>
+            <div id="case-4b" class="case case-blanche"></div>
+            <div id="case-4c" class="case case-noire"></div>
+            <div id="case-4d" class="case case-blanche">
+            </div>
+            <div id="case-4e" class="case case-noire"></div>
+            <div id="case-4f" class="case case-blanche"></div>
+            <div id="case-4g" class="case case-noire"></div>
+            <div id="case-4h" class="case case-blanche" ></div>
+            <div class="case bordure">4</div>
+
+            <div class="case bordure">5</div>
+            <div id="case-5a" class="case case-blanche" ></div>
+            <div id="case-5b" class="case case-noire"></div>
+            <div id="case-5c" class="case case-blanche"></div>
+            <div id="case-5d" class="case case-noire"></div>
+            <div id="case-5e" class="case case-blanche"></div>
+            <div id="case-5f" class="case case-noire"></div>
+            <div id="case-5g" class="case case-blanche"></div>
+            <div id="case-5h" class="case case-noire"></div>
+            <div class="case bordure">5</div>
+
+            <div class="case bordure">6</div>
+            <div id="case-6a" class="case case-noire"></div>
+            <div id="case-6b" class="case case-blanche"></div>
+            <div id="case-6c" class="case case-noire"></div>
+            <div id="case-6d" class="case case-blanche"></div>
+            <div id="case-6e" class="case case-noire"></div>
+            <div id="case-6f" class="case case-blanche"></div>
+            <div id="case-6g" class="case case-noire"></div>
+            <div id="case-6h" class="case case-blanche" ></div>
+            <div class="case bordure">6</div>
+
+            <div class="case bordure">7</div>
+            <div id="case-7a" class="case case-blanche">
+                <img src="./images/pion-j1.png" class="pion-j1 traverse" alt="pion">
+            </div>
+            <div id="case-7b" class="case case-noire">
+                <img src="./images/pion-j1.png" class="pion-j1 traverse" alt="pion">
+            </div>
+            <div id="case-7c" class="case case-blanche">
+                <img src="./images/pion-j1.png" class="pion-j1 traverse" alt="pion">
+            </div>
+            <div id="case-7d" class="case case-noire">
+                <img src="./images/pion-j1.png" class="pion-j1 traverse" alt="pion">
+            </div>
+            <div id="case-7e" class="case case-blanche">
+                <img src="./images/pion-j1.png" class="pion-j1 traverse" alt="pion">
+            </div>
+            <div id="case-7f" class="case case-noire">
+                <img src="./images/pion-j1.png" class="pion-j1 traverse" alt="pion">
+            </div>
+            <div id="case-7g" class="case case-blanche">
+                <img src="./images/pion-j1.png" class="pion-j1 traverse" alt="pion">
+            </div>
+            <div id="case-7h" class="case case-noire">
+                <img src="./images/pion-j1.png" class="pion-j1 traverse" alt="pion">
+            </div>
+            <div class="case bordure">7</div>
+        
+            <div class="case bordure">8</div>
+            <div id="case-8a" class="case case-noire">
+                    <img src="./images/tour-j1.png" class="tour-j1" alt="tour">
+            </div>
+            <div id="case-8b" class="case case-blanche">
+                <img src="./images/cheval-j1.png" class="cheval-j1" alt="cheval">
+            </div>
+            <div id="case-8c" class="case case-noire">
+                <img src="./images/fou-j1.png" class="fou-j1" alt="fou">
+            </div>
+            <div id="case-8d" class="case case-blanche">
+                <img src="./images/roi-j1.png" class="roi-j1" alt="roi">
+            </div>
+            <div id="case-8e" class="case case-noire">
+                <img src="./images/renne-j1.png" class="renne-j1" alt="renne">
+            </div>
+            <div id="case-8f" class="case case-blanche">
+                <img src="./images/fou-j1.png" class="fou-j1" alt="fou">
+            </div>
+            <div id="case-8g" class="case case-noire">
+                <img src="./images/cheval-j1.png" class="cheval-j1" alt="cheval">
+            </div>
+            <div id="case-8h" class="case case-blanche">
+                <img src="./images/tour-j1.png" class="tour-j1" alt="tour">
+            </div>
+            <div class="case bordure">8</div>
+            <div class="case bordure"> </div>
+            <div id="case-9a" class="case bordure">A</div>
+            <div id="case-9b" class="case bordure">B</div>
+            <div id="case-9c" class="case bordure">C</div>
+            <div id="case-9d" class="case bordure">D</div>
+            <div id="case-9e" class="case bordure">E</div>
+            <div id="case-9f" class="case bordure">F</div>
+            <div id="case-9g" class="case bordure">G</div>
+            <div id="case-9h" class="case bordure">H</div>
+            <div class="case bordure"> </div>
+        </div>
+        <div class="box-4">
+            <div id="score-j2" class="score">
+                <p class="pas-tour-de-jeu">Pions j2</p>
+            </div>
+            <div class="box-score">
+                <div class="case-score" id="pion-capture-joueur2-1"></div>
+                <div class="case-score" id="pion-capture-joueur2-2"></div>
+                <div class="case-score" id="pion-capture-joueur2-3"></div>
+                <div class="case-score" id="pion-capture-joueur2-4"></div>
+                <div class="case-score" id="pion-capture-joueur2-5"></div>
+                <div class="case-score" id="pion-capture-joueur2-6"></div>
+                <div class="case-score" id="pion-capture-joueur2-7"></div>
+                <div class="case-score" id="pion-capture-joueur2-8"></div>
+                <div class="case-score" id="pion-capture-joueur2-9"></div>
+                <div class="case-score" id="pion-capture-joueur2-10"></div>
+                <div class="case-score" id="pion-capture-joueur2-11"></div>
+                <div class="case-score" id="pion-capture-joueur2-12"></div>
+                <div class="case-score" id="pion-capture-joueur2-13"></div>
+                <div class="case-score" id="pion-capture-joueur2-14"></div>
+                <div class="case-score" id="pion-capture-joueur2-15"></div>
+                <div class="case-score" id="pion-capture-joueur2-16"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="pion.js"></script>
+<script src="cavalier.js"></script>
+<script src="tour.js"></script>
+<script src="fou.js"></script>
+<script src="renne.js"></script>
+<script src="roi.js"></script>
+<script src="echec2.js"></script>
+</html>
