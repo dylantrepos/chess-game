@@ -1,6 +1,4 @@
-# chess-game
-A chess game for 2 players made with CSS and JavaScript Vanilla only.
-<h1>Creation of a chess game for 2 players made with CSS and JavaScript Vanilla only.</h1>
+<h1>Creation of a chess game for 2 players (JS Vanilla only)</h1>
 <h3>Goals</h3>
 <p>Create a 2-players game from scratch without any help or tutorial.</p>
 <h3>Tech used</h3>
